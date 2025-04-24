@@ -104,7 +104,7 @@ sudo systemctl daemon-reload && sudo systemctl enable zgs && sudo systemctl star
 ```bash
 tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ```
-![image](https://github.com/user-attachments/assets/d6cfc681-cf8a-4eef-9dfe-bbb7238ff779)
+![image](https://github.com/user-attachments/assets/b3ba9528-ab19-4d98-ab29-0fe531175d28)
 
 
 - Check Blocks and Peers
