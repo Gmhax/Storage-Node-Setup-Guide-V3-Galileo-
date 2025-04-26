@@ -10,7 +10,6 @@ This guide will help you set up a Storage Node for OG Labs. For official documen
 
 ### VPS 3 needed you can purchase here: https://contabo.com/en/vps/cloud-vps-8c/?addons=1854&image=ubuntu.332&qty=1&contract=12&storage-type=ssd-storage-extension-vps-8-cores
 
-- Kung may Vps 3 kana at merun pang 16GB+ ram pa at merun 6GB+ CPU goods payan e-run sa 0g Storage,
 
 # First request faucet: https://faucet.0g.ai/
 
