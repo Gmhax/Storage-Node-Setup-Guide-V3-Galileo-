@@ -115,7 +115,43 @@ source <(curl -s https://astrostake.xyz/check_block.sh)
 
 
 
-## Done ma bro!!
+#  Snapshot For Faster Sync
+` This Snapshot will help u to sync Faster & it will start from Block -- 5971353
+🛠️ Installation Instructions
+
+- Stop The Node & Delete flow db
+```
+sudo systemctl stop zgs
+```
+```
+rm -rf $HOME/0g-storage-node/run/db/flow_db
+```
+- Download and extract the Flow db:
+```
+wget -q https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.zst.part-aa && \
+wget -q https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.zst.part-ab && \
+cat flow_db.tar.zst.part-* > flow_db.tar.zst && \
+tar --use-compress-program=unzstd -xvf flow_db.tar.zst -C $HOME/0g-storage-node/run/db/ && \
+rm flow_db.tar.zst.part-* flow_db.tar.zst
+```
+- Restart Your Service/Node
+```
+sudo systemctl restart zgs
+```
+- Check logs
+```
+sudo systemctl status zgs
+```
+```
+tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
+```
+
+
+
+
+
+
+
 
 
 
