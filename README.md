@@ -118,6 +118,10 @@ source <(curl -s https://astrostake.xyz/check_block.sh)
 #  Snapshot For Faster Sync
 ` This Snapshot will help u to sync Faster & it will start from Block -- 5971353
 🛠️ Installation Instructions
+- Open directories:
+```
+cd $HOME/0g-storage-node
+```
 
 - Stop The Node & Delete flow db
 ```
